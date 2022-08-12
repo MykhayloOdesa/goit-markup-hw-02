@@ -1,4 +1,114 @@
-.social-links a {
-  color: blue;
+:root {
+  --brand-backgroung-color: #f5f5f5;
+  --primary-background-color: #2f303a;
+  --secondary-background-color: #f5f4fa;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --brand-white-color: #ffffff;
+  --brand-black-color: #000000;
+  --text-accent-color: #2196f3;
+  --text-footer-contact: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: var(--brand-white-color);
+}
+
+.logo {
+  color: var(--brand-black-color);
   text-decoration: none;
+}
+
+.logo-text {
+  color: var(--text-accent-color);
+}
+
+.nav-link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.nav-link.current {
+  color: var(--text-accent-color);
+}
+
+.link {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.link:hover,
+.link:focus {
+  color: var(--text-accent-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.list-title {
+  color: var(--primary-text-color);
+}
+
+.list-desc {
+  color: var(--secondary-text-color);
+}
+
+.hero {
+  background-color: var(--primary-background-color);
+}
+
+.hero-title {
+  color: var(--brand-white-color);
+}
+
+.hero-btn {
+  background-color: var(--text-accent-color);
+  color: var(--brand-white-color);
+}
+
+.section-title {
+  color: var(--primary-text-color);
+}
+
+.spec {
+  background-color: var(--brand-white-color);
+}
+
+.business {
+  background-color: var(--secondary-background-color);
+}
+
+footer {
+  background-color: var(--primary-background-color);
+}
+
+.footer-logo {
+  color: var(--brand-white-color);
+}
+
+.address-link {
+  color: var(--brand-white-color);
+  text-decoration: none;
+}
+
+.contacts-link {
+  color: var(--text-footer-contact);
+  text-decoration: none;
+}
+
+.btn {
+  color: var(--primary-text-color);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--text-accent-color);
+  color: var(--brand-white-color);
 }
