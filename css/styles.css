@@ -172,7 +172,7 @@ body {
 .btn:hover,
 .btn:focus {
   background-color: var(--text-accent-color);
-  color: var(--secondary-background-color);
+  color: var(--brand-white-color);
 }
 
 .portfolio-title {
