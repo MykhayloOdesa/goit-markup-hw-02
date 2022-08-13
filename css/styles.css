@@ -131,7 +131,6 @@ body {
 
 .team-desc {
   color: var(--secondary-text-color);
-  font-size: 16px;
   line-height: 1.19;
 }
 
@@ -184,6 +183,5 @@ body {
 
 .portfolio-desc {
   color: var(--secondary-text-color);
-  font-size: 16px;
   line-height: 1.88;
 }
